@@ -23,18 +23,16 @@ be turnd on.  This procedure is supposed to set two variables:
 The procedure has access to the global state of the game, but it is not allowed to change any.  These
 state variables are:
 
-* 'ring_x'  is the x coordinate of the ring that the player will to fly into.
-* 'ring_y'  is the y coordinate of the ring that the player will to fly into.
-* 'ship_angle' is the ships orientation, in degrees
-* 'ship_x'   is the ship's x position
-* 'ship_y'   is the ship's y position
-* 'ship_v_x' is the ship's x velocity
-* 'ship_v_y' is the ship's y velocity
-* 'ship_mass' is the ship's mass
-* 'ship_thrust' if the force that will be applied to the ship, if the thrusters are on
+* *ring_x*  is the x coordinate of the ring that the player will to fly into.
+* *ring_y*  is the y coordinate of the ring that the player will to fly into.
+* *ship_angle* is the ships orientation, in degrees
+* *ship_x*   is the ship's x position
+* *ship_y*   is the ship's y position
+* *ship_v_x* is the ship's x velocity
+* *ship_v_y* is the ship's y velocity
+* *ship_mass* is the ship's mass
+* *ship_thrust* if the force that will be applied to the ship, if the thrusters are on
 
-/// This is the velocity of the ball that the player will shoot.
-//double ship_speed;
 
 Angles
 ------
