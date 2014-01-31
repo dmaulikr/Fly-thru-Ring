@@ -13,12 +13,12 @@ Demo
 The Task
 --------
 
-The exercise is to write a procedure 'shipNavigate()' that decides how to steer the ship, and if the thrusters should
-be turnd on.  This procedure is supposed to set two variables:
+The exercise is to write a procedure **shipNavigate()** that decides how to steer the ship, and if the thrusters should
+be turned on.  This procedure is supposed to set two variables:
 
-* 'ship_dAngle'  is the amount that the procedure wants to change the ships orientation angle by.  This must be in the range  -15..15 degrees.
+* *ship_dAngle*  is the amount that the procedure wants to change the ships orientation angle by.  This must be in the range  -15..15 degrees.
 
-* 'ship_thrustOn' is set to 0 if the procedure wants the thrusters off, 1 if the procedure wants them on.  The ship will be accelerated in the direction that it is orientated.
+* *ship_thrustOn* is set to 0 if the procedure wants the thrusters off, 1 if the procedure wants them on.  The ship will be accelerated in the direction that it is orientated.
 
 The procedure has access to the global state of the game, but it is not allowed to change any.  These
 state variables are:

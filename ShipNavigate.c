@@ -56,16 +56,7 @@ extern int ship_thrustOn;
  */
 void shipNavigate()
 {
-    // choose the ball shooter angle
-    double dX = ring_x - ship_x;
-    double dY = ring_y - ship_y;
-    double dAngle = atan2(dY,dX)*360.0/(2.0*M_PI);
-    if (dAngle < 0.0) dAngle += 360.0;
-    ship_dAngle = dAngle-ship_angle;
-    if (ship_dAngle < 5.0 && ship_dAngle > -5.0)
-        ship_thrustOn = 1;
-    else
-        ship_thrustOn = 0;
-
     // This is a dumb choice
+    ship_dAngle = 15;
+    ship_thrustOn = 1;
 }
