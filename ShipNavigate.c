@@ -47,8 +47,8 @@ extern double ship_dAngle;
 extern int ship_thrustOn;
 
 
-/** This is the procedure that you customize to shoot the ball.
-    Your objective is to compute angle to shoot the ball.
+/** This is the procedure that you customize to fly the ship
+    Your objective is to compute angle to steer the ship, and whether to engage the thrusters
     @return The angle to shoot with. 0..90
  
     The procedure may set the variable ship_dAngle to amount it wants to change the ships
