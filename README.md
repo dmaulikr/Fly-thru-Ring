@@ -68,8 +68,9 @@ The next step is to describe the ship and it's flight parameters in a "parameter
 
 ![Ship parameter diagram](ship parameters.png "The ship's parameter diagram")
 
-This describes the balls straight-line flight at angle from the point it was shot.  (We'll add gravity in next)
-The input to modelling the ball is it's time in the flight, and the result is the location after it's flown.
+
+That describes the ship, with momentum and acceleration.  Looks complicated?
+Yes, and no.  It's not something we need to worry about.
 
 #### Step 3: Solve the equations, and implement it in code
 
