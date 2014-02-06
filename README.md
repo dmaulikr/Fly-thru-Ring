@@ -80,7 +80,8 @@ using the C-language.  There are many other ways of solving this.  A lot of them
 an interesting ways.   The (advanced) high school student should work thru the equations and come up with a more
 efficient method to get the ship thru the ring faster.
 
-First, get the ship under control.
+First, get the ship under control:
+
 1. Is the ship moving?  No?  Then we have the ship under control.  Otherwise,
 2. Is the ship moving toward the ring?  A simple way to tell is to calculate the angle toward the ring, and the angle
 of the ship's velocity (convert it to polar coordintes).  Then subtract one from the other.  Is the value less than (say) 1degree and more than (say) -1degree?   Yes?  Then we have the ship under control.  (This gap of -1 to 1 degree is a _hystersis_ band to prevent buggy behaviour.)  Otherwise.
@@ -89,6 +90,7 @@ of the ship's velocity (convert it to polar coordintes).  Then subtract one from
 
 
 Next, fly toward the ring:
+
 5. set *ship_thrust* off for now.
 6. Is the ship oriented (that is, *ship_angle*) pointing toward the ring?  (To figure this out, follow the steps above).  If so, set *ship_thrust* on, and return.
 7. If not, compute the difference between the *ship_angle* and the angle to the ring..
